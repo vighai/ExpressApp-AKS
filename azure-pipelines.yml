@@ -51,7 +51,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'azooinmyluggageExpressAppAKS-1011.abcd'
+    environment: 'azooinmyluggageExpressAppAKS-1011.vidit'
     strategy:
       runOnce:
         deploy:
